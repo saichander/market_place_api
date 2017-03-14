@@ -50,3 +50,6 @@ group :test do
   gem "factory_girl_rails"
   gem 'ffaker'
 end
+
+gem "devise"
+
