@@ -19,6 +19,8 @@ gem 'jquery-rails'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'rake', '< 11.0'
+
 #Api gems
 gem 'active_model_serializers'
 
