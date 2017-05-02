@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 describe Api::V1::UsersController do
-  before(:each) { request.headers['Accept'] = "application/vnd.marketplace.v1" }
   let(:user_response) { json_response }
 
   describe "GET #show" do
