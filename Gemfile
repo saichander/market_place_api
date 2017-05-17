@@ -22,7 +22,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rake', '< 11.0'
 
 #Api gems
-gem 'active_model_serializers'
+gem 'active_model_serializers', git: 'git@github.com:rails-api/active_model_serializers.git', branch: '0-8-stable'
 
 
 # Use ActiveModel has_secure_password
