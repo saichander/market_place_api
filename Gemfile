@@ -52,6 +52,7 @@ end
 
 group :test do
   gem "rspec-rails", "~> 3.5"
+  gem "email_spec"
 end
 
 gem "devise"
